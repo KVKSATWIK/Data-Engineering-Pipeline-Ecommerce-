@@ -1,0 +1,40 @@
+﻿# Python environments
+venv/
+venv-linux/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated data
+data/raw/
+data/processed/
+data/analytics/
+
+# Spark output
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local Spark experiments
+test_spark.py
+test_spark_write.py
+check_hadoop.py
